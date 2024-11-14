@@ -1,0 +1,197 @@
+html{
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+}
+
+ul li{
+    margin: 0;
+    padding-left: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #434455;
+    background-color: #FFFFFF;
+    margin: 0;
+}
+
+.container{
+    max-width: 1158px;
+    display: flex;
+}
+
+.firstline .container{
+    padding-left: 156px;
+    padding-top: 24px;
+}
+
+.navigation{
+    display: flex;
+}
+
+.logo {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #4D5AE5;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-top: 24px;
+}
+
+.brand-logo {
+    color: #2E2F42;
+    text-transform: uppercase;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+}
+
+.menu-nav {
+    font-size: 16px;
+    color: #2e2f42;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.menu-nav:focus{
+    color: #404bbf;
+    background-color: #404BBF;
+}
+
+.menu-nav:hover {
+    color: #404bbf;
+}
+
+.adress{
+    font-style: normal;
+}
+
+.contact-list {
+    list-style-type: none;
+    display: flex;
+}
+
+.contact-link {
+    color: #434455;
+    text-decoration: none;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.contact-link:hover {
+    color: #404bbf;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+}
+
+.contact-link:focus{
+    color: #404bbf;
+}
+
+.first-section {
+    background-color: #2E2F42;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.button {
+    font-family: "Roboto", sans-serif;
+    border: none;
+    cursor: pointer;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    text-align: center;
+    border-radius: 4px;
+    width: 169;
+    height: 56px;
+    padding: 16px 32px;
+    margin: 0 auto 188px auto;
+}
+
+.button:hover {
+    background-color: #404BBF;
+}
+
+.button:focus{
+    background-color: #404BBF;
+}
+
+.second-title {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color:#2e2f42;
+}
+
+.portret{
+    display: block;
+}
+
+.text{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.our-team {
+    background-color: #F4F4FD;
+}
+
+.third-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.block {
+    list-style-type: none;
+    background-color: #FFFFFF;
+}
+
+.foto{
+    display: block;
+}
+
+.footer {
+    background-color: #2E2F42;
+}
+
+.footer-text {
+    color: #F4F4FD;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.footer-logo {
+    color: #F4F4FD;
+}
+
+.footer .container{
+    display: flex;
+    padding-left: 156px;
+}
