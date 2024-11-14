@@ -10,7 +10,7 @@ ul li{
     padding-left: 0;
 }
 
-body {
+body{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     color: #434455;
@@ -22,7 +22,11 @@ body {
     max-width: 1158px;
     display: flex;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 15px 0 15px;
+}
+
+.firstline{
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .firstline .container{
@@ -35,7 +39,7 @@ body {
     align-items: center;
 }
 
-.logo {
+.logo{
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -107,7 +111,7 @@ body {
 
 .first-section {
     background-color: #2E2F42;
-    padding: 188px 0;
+    padding: 120px 0;
 }
 
 .title {
@@ -162,6 +166,8 @@ body {
     visibility: hidden;
 }
 
+
+
 .menu-methods{
     display: flex;
     gap: 24px;
@@ -191,7 +197,7 @@ body {
     text-align: center;
 }
 
-.our-team {
+.our-team{
     background-color: #F4F4FD;
     padding: 120px 0;
 }
@@ -209,7 +215,7 @@ body {
 }
 
 .menu-portfolio .block{
-    width: calc((100% - 48px) / 3);
+    width: calc((100% - 48px)/3);
 }
 
 .aplication{
@@ -243,6 +249,11 @@ body {
     padding: 100px 0;
 }
 
+.footer .logo{
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
 .footer-text {
     color: #F4F4FD;
     line-height: 1.5;
@@ -251,8 +262,6 @@ body {
 
 .footer-logo {
     color: #F4F4FD;
-    display: inline-block;
-    margin-bottom: 16px;
 }
 
 .footer .container{
