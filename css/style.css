@@ -21,6 +21,8 @@ body {
 .container{
     max-width: 1158px;
     display: flex;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 .firstline .container{
@@ -30,6 +32,7 @@ body {
 
 .navigation{
     display: flex;
+    align-items: center;
 }
 
 .logo {
@@ -42,6 +45,7 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     padding-top: 24px;
+    margin-right: 76px;
 }
 
 .brand-logo {
@@ -52,6 +56,8 @@ body {
 .nav-list {
     list-style-type: none;
     display: flex;
+    gap: 40px;
+    padding: 24px 0;
 }
 
 .menu-nav {
@@ -79,6 +85,7 @@ body {
 .contact-list {
     list-style-type: none;
     display: flex;
+    gap: 40px;
 }
 
 .contact-link {
@@ -100,6 +107,7 @@ body {
 
 .first-section {
     background-color: #2E2F42;
+    padding: 188px 0;
 }
 
 .title {
@@ -109,6 +117,7 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    padding: 188px 0;
 }
 
 .button {
@@ -123,7 +132,7 @@ body {
     background-color: #4D5AE5;
     text-align: center;
     border-radius: 4px;
-    width: 169;
+    min-width: 169px;
     height: 56px;
     padding: 16px 32px;
     margin: 0 auto 188px auto;
@@ -145,19 +154,69 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color:#2e2f42;
+    margin-bottom: 8px;
+    margin-bottom: 72px;
+}
+
+.methods .second-title{
+    visibility: hidden;
+}
+
+.menu-methods{
+    display: flex;
+    gap: 24px;
+}
+
+.block{
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team {
+    display: flex;
+    gap: 24px;
 }
 
 .portret{
     display: block;
 }
 
+.person{
+    padding: 32px 0;
+}
+
 .text{
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .our-team {
     background-color: #F4F4FD;
+    padding: 120px 0;
+}
+
+.portfolio{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.menu-portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.menu-portfolio .block{
+    width: calc((100% - 48px) / 3);
+}
+
+.aplication{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
 }
 
 .third-title{
@@ -166,6 +225,8 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: center;
+    margin-bottom: 8px;
 }
 
 .block {
@@ -179,6 +240,7 @@ body {
 
 .footer {
     background-color: #2E2F42;
+    padding: 100px 0;
 }
 
 .footer-text {
@@ -189,6 +251,8 @@ body {
 
 .footer-logo {
     color: #F4F4FD;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer .container{
