@@ -166,7 +166,7 @@ body{
     padding: 120px 0;
 }
 
-.methods .second-title{
+.container .second-title{
     visibility: hidden;
 }
 
@@ -179,7 +179,6 @@ body{
     width: calc((100% - 72px) / 4);
 }
 
-
 .team {
     display: flex;
     gap: 24px;
@@ -187,6 +186,7 @@ body{
 
 .team .block{
     width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .portret{
@@ -207,8 +207,6 @@ body{
     background-color: #F4F4FD;
     padding: 120px 0;
 }
-
-
 
 .portfolio{
     padding-top: 120px;
@@ -243,10 +241,10 @@ body{
     margin-bottom: 8px;
 }
 
-/* .block { */
-    /* list-style-type: none; */
-    /* background-color: #FFFFFF; */
-/* } */
+.block {
+    list-style-type: none;
+    background-color: #FFFFFF;
+}
 
 .foto{
     display: block;
