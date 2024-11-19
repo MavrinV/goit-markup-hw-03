@@ -59,6 +59,7 @@ body {
     list-style-type: none;
     display: flex;
     gap: 40px;
+    margin-bottom: 16px;
 }
 
 .menu-nav {
@@ -88,6 +89,8 @@ body {
     list-style-type: none;
     display: flex;
     gap: 40px;
+    margin-bottom: 16px;
+    margin-left: 150px;
 }
 
 .contact-link {
@@ -124,7 +127,7 @@ body {
     letter-spacing: 0.02em;
     color: #FFFFFF;
     max-width: 496px;
-    padding-bottom: 16px;
+    padding-bottom: 26px;
 }
 
 .button {
@@ -233,6 +236,8 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 
 .portfolio .block{
@@ -273,13 +278,19 @@ body {
     margin-bottom: 16px;
 }
 
-.footer .container{
-    display: flex;
+/* .footer .container{
+    /* display: flex;
     flex-direction: column;
     margin: 0px;
     max-width: 264px;
     padding-left: 156px;
-    max-width: 264px;
+    max-width: 264px; 
+} */
+
+.container-footer{
+    display: flex;
+    flex-direction: column;
+    width: 264px;
 }
 
 .footer-text {
