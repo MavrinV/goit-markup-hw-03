@@ -299,6 +299,7 @@ body {
     text-transform: uppercase;
     margin-right: 76px;
     margin-left: 156px;
+    margin-bottom: 16px;
 }
 
 /* .footer .container{
@@ -318,5 +319,4 @@ body {
 
 .footer-logo {
     color: #F4F4FD;
-    display: inline-block;
 }
