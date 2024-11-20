@@ -19,7 +19,6 @@ body {
 }
 
 .container{
-    display: flex;
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
@@ -31,6 +30,10 @@ body {
     margin-top: 24px;
     margin-bottom: 24px;
     align-items: center;
+}
+
+.firstline .container{
+    display: flex;
 }
 
 .firstline{
@@ -116,6 +119,7 @@ body {
 }
 
 .first-section .container{
+    display: flex;
     flex-direction: column;
 }
 
@@ -255,7 +259,6 @@ body {
 }
 
 .portfolio .block{
-    border: 1px solid #E7E9FC;
     width: 360px;
     height: 420px;
 }
@@ -297,8 +300,6 @@ body {
     color: #4D5AE5;
     text-decoration: none;
     text-transform: uppercase;
-    margin-right: 76px;
-    margin-left: 156px;
     margin-bottom: 16px;
 }
 
@@ -312,9 +313,12 @@ body {
 } */
 
 .footer-text {
+    display: flex;
     color: #F4F4FD;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    width: 264px;
+
 }
 
 .footer-logo {
