@@ -27,9 +27,8 @@ body {
 
 .navigation{
     display: flex;
-    margin-top: 24px;
-    margin-bottom: 24px;
     align-items: center;
+    margin-right: auto;
 }
 
 .firstline .container{
@@ -50,7 +49,6 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     margin-right: 76px;
-    margin-left: 156px;
 }
 
 .brand-logo {
@@ -62,7 +60,6 @@ body {
     list-style-type: none;
     display: flex;
     gap: 40px;
-    margin-bottom: 16px;
 }
 
 .menu-nav {
@@ -73,6 +70,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     padding: 24px 0;
+    display: block;
 }
 
 .menu-nav:focus{
@@ -92,8 +90,6 @@ body {
     list-style-type: none;
     display: flex;
     gap: 40px;
-    margin-bottom: 16px;
-    margin-left: 150px;
 }
 
 .contact-link {
@@ -131,7 +127,8 @@ body {
     letter-spacing: 0.02em;
     color: #FFFFFF;
     max-width: 496px;
-    padding-bottom: 26px;
+    margin-bottom: 48px;
+
 }
 
 .button {
@@ -161,10 +158,6 @@ body {
 .second-section{
     padding: 120px 0;
 }
-
-/* .second-section .second-title{
-    visibility: hidden;
-} */
 
 .visually-hidden{
     position: absolute;
@@ -213,7 +206,6 @@ body {
 
 .our-team .container{
     flex-direction: column;
-    max-width: 1128px;
 }
 
 .container .staff{
@@ -267,7 +259,6 @@ body {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
 }
 
 .third-title{
